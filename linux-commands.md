@@ -6,11 +6,11 @@ ls
 ```
 Options:
 
--l: Long format
+-l : Long format
 
--a: Show hidden files
+-a : Show hidden files
 
--h: Human-readable file sizes
+-h : Human-readable file sizes
 
 ## Change Directory
 ```sh
@@ -18,9 +18,11 @@ cd <directory>
 ```
 Examples:
 
-``` cd .. ```: Go up one directory
+``` cd .. ``` : Go up one directory
 
-``` cd ~ ```: Go to the home directory
+``` cd ~ ``` : Go to the home directory
+
+``` cd / ``` : Go to the root directory
 
 ## File Operations
 
@@ -48,7 +50,7 @@ rm <file-name>
 ```
 Option:
 
--r: Recursive, required to delete directories
+-r : Recursive, required to delete directories
 
 ### Create a New Directory
 ```sh
@@ -229,4 +231,8 @@ history
 ### Echo a Message
 ```sh
 echo "Your message here"
+```
+### Super User 
+```sh
+sudo <command>
 ```
