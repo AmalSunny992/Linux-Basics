@@ -119,6 +119,26 @@ or
 curl -O <url>
 ```
 
+### Check Network Interfaces
+```sh
+ifconfig
+```
+
+### Display Routing Table
+```sh
+netstat -rn
+```
+
+### Check Open Ports
+```sh
+netstat -tuln
+```
+
+### Traceroute
+```sh
+traceroute <host>
+```
+
 ## Package Management (Debian-based systems)
 ### Update Package List
 ```sh
@@ -151,8 +171,52 @@ find <path> -name <search-term>
 ```sh
 grep <search-term> <file>
 ```
+## Compression
+
+### Compress Files (tar.gz)
+```sh
+tar -czvf archive-name.tar.gz <file-or-directory>
+```
+
+### Decompress Files (tar.gz)
+```sh
+tar -xzvf archive-name.tar.gz
+```
+
+### Compress Files (zip)
+
+```sh
+zip archive-name.zip <file-or-directory>
+```
+
+### Decompress Files (zip)
+```sh
+unzip archive-name.zip
+```
+
+## AWK
+
+### Print Specific Columns
+```sh
+awk '{print $1, $3}' <file>
+```
+
+### Pattern Matching
+```sh
+awk '/pattern/ {print $0}' <file>
+```
+
+### Field Separator
+```sh
+awk -F',' '{print $1, $2}' <file>
+```
 
 ## Miscellaneous
+
+### Print Working Directory
+  ```sh
+  pwd
+```
 ### Clear the Terminal Screen
 ```sh
 clear
