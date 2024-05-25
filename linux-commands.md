@@ -246,10 +246,17 @@ sudo <command>
 sudo ufw
 ```
 options:
+
 enable : enable firewall
+
 status : display status of firewall
+
 disable : disable firewall
+
 deny from : block ip or subnet
+
 allow from : allow ip or subnet
+
 delete : delete allow or disable rule
+
 app list : list available applications profiles
