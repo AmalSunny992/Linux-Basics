@@ -34,6 +34,10 @@ touch <file-name>
 ```sh
 cat <file-name>
 ```
+### Display File Contents
+```sh
+nano <file-name>
+```
 ### Copy file
 ```sh
 cp <source> <destination>
