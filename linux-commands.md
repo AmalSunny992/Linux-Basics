@@ -5,8 +5,11 @@
 ls
 ```
 Options:
+
 -l: Long format
+
 -a: Show hidden files
+
 -h: Human-readable file sizes
 
 ## Change Directory
@@ -14,7 +17,9 @@ Options:
 cd <directory>
 ```
 Examples:
+
 ``` cd .. ```: Go up one directory
+
 ``` cd ~ ```: Go to the home directory
 
 ## File Operations
@@ -42,6 +47,7 @@ mv <source> <destination>
 rm <file-name>
 ```
 Option:
+
 -r: Recursive, required to delete directories
 
 ### Create a New Directory
@@ -60,7 +66,9 @@ rmdir <directory-name>
 chmod <permissions> <file-name>
 ```
 Examples:
+
 ``` chmod 644 <file-name> ```: Set read/write for owner, read-only for group and others
+
 ``` chmod +x <file-name> ```: Make a file executable
 
 ### Change File Owner
