@@ -3,7 +3,7 @@ Welcome to the Linux Operating System Learning Repository! This repository is de
 
 ## Table of Contents
 1. [What is Operating System?](./os.md)
-2. [Difference between Unix and Linux](./unix-vslinux.md)
+2. [Difference between Unix and Linux](./unix-vs-linux.md)
 3. [Basic Linux Commands](./linux-commands)
 
 ## License
