@@ -34,7 +34,7 @@ touch <file-name>
 ```sh
 cat <file-name>
 ```
-### Display File Contents
+### Edit File Contents
 ```sh
 nano <file-name>
 ```
