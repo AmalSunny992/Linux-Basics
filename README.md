@@ -7,4 +7,4 @@ Welcome to the Linux Operating System Learning Repository! This repository is de
 3. [Basic Linux Commands](./linux-commands.md)
 
 ## License
-This project is licensed under the terms of the Apache license. See the LICENSE file for details.
+This project is licensed under the terms of the Apache license. See the [LICENSE](./LICENSE) file for details.
