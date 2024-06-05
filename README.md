@@ -1,3 +1,4 @@
+![Linux Badge](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=000&style=for-the-badge)
 # Linux
 Welcome to the Linux Operating System Learning Repository! This repository is designed to help you understand the basics of Linux Operating System, including using the CLI.
 
