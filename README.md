@@ -6,7 +6,8 @@ Welcome to the Linux Operating System Learning Repository! This repository is de
 ## Table of Contents
 1. [What is Operating System?](./os.md)
 2. [Difference between Unix and Linux](./unix-vs-linux.md)
-3. [Basic Linux Commands](./linux-commands.md)
+3. [Linux File System Hierarchy](./Linux-FS-Hierarchy.md)
+4. [Basic Linux Commands](./linux-commands.md)
 
 ## License
 This project is licensed under the terms of the Apache license. See the [LICENSE](./LICENSE) file for details.
